@@ -20,17 +20,17 @@ const Home: NextPage = () => {
         <div className="grid gap-3 pt-3 mt-3 text-center md:grid-cols-3 lg:w-2/3">
           <TechnologyCard
             name="Nmap"
-            description="Cool Scanner"
+            description="Cool Scanner for networking stuff."
             documentation="https://nmap.org/"
           />
           <TechnologyCard
             name="Nessus"
-            description="Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale"
+            description="Finds the vulnerable things."
             documentation="https://www.tenable.com/products/nessus"
           />
           <TechnologyCard
             name="Bash"
-            description="Scripting language for try-hards"
+            description="Scripting language for try-hards."
             documentation="https://www.gnu.org/software/bash/"
           />
         </div>
