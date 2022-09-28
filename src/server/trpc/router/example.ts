@@ -1,5 +1,5 @@
-import { t } from "../trpc";
 import { z } from "zod";
+import { t } from "../trpc";
 
 export const exampleRouter = t.router({
   hello: t.procedure
@@ -10,6 +10,6 @@ export const exampleRouter = t.router({
       };
     }),
   getAll: t.procedure.query(({ ctx }) => {
-    return ctx.prisma.example.findMany();
+    return ctx.prisma.scans.findMany();
   }),
 });
